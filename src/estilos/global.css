@@ -1,0 +1,27 @@
+/* -------------------------------------------------------- */
+/* Reset Global - Prática padrão de zerar margens e padding */
+/* -------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+/* ------------------ */
+/* Variáveis de cores */
+/* ------------------ */
+
+:root {
+    --cor-primaria: #03658c;
+    --cor-subprimaria: #00172D;
+    --cor-secundaria: #c0d904;
+    --cor-subsecundaria : #9DAB24;
+    --branco-transparente: rgba(255, 255, 255, 0.6);
+}

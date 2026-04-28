@@ -1,0 +1,100 @@
+/* ------ */
+/* Rodapé */
+/* ------ */
+
+.rodape {
+    background-color: var(--cor-subprimaria); /* Azul marinho profundo */
+    color: white;
+    padding: 60px 0 20px 0;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; /* Flexbox para alinhar as 3 colunas */
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap; /* Para telas menores */
+    gap: 30px;
+}
+
+.footer-col {
+    flex: 1; /* Faz as colunas terem tamanhos iguais */
+    min-width: 250px;
+}
+
+.footer-logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col h3 {
+    color: var(--cor-secundaria); /* Título em Verde Limão */
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+/* Detalhe visual: linhazinha embaixo do título da coluna */
+.footer-col h3::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: var(--cor-secundaria);
+    margin-top: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: var(--cor-secundaria);
+    padding-left: 5px; /* Efeito de deslocamento */
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-link {
+    background-color: var(--cor-primaria);
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-link:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-subprimaria);
+    transform: rotate(360deg);
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    color: #888;
+}

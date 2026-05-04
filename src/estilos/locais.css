@@ -83,3 +83,35 @@
     background-color: var(--cor-primaria);
     color: white;
 }
+
+/* --------------------- */
+/* Responsividade Locais */
+/* --------------------- */
+
+@media (max-width: 768px) {
+
+    .locais {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .container-cards {
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .titulo-secao h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-info {
+        padding: 20px;
+    }
+}

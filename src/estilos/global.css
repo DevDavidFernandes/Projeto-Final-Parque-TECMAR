@@ -25,3 +25,19 @@ body {
     --cor-subsecundaria : #9DAB24;
     --branco-transparente: rgba(255, 255, 255, 0.6);
 }
+
+/* --------------------- */
+/* Responsividade Global */
+/* --------------------- */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+}

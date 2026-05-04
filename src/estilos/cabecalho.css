@@ -85,3 +85,34 @@ header {
     background-color: var(--cor-subsecundaria);
     transform: translateY(-2px);
 }
+
+/* --------------------- */
+/* Responsividade Header */
+/* --------------------- */
+
+@media (max-width: 768px) {
+
+    .nav-container {
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .logo-area img {
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .nav-container {
+        margin: 0 10px;
+    }
+
+    .logo-area img {
+        height: 45px;
+    }
+}

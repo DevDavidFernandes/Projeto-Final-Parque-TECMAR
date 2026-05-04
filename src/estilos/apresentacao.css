@@ -67,3 +67,54 @@
   background-color: var(--cor-subsecundaria);
   transform: scale(1.05);
 }
+
+/* --------------------- */
+/* Responsividade Hero */
+/* --------------------- */
+
+@media (max-width: 768px) {
+
+    .apresentacao {
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .container-hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-conteudo {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .hero-conteudo h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-conteudo p {
+        font-size: 1rem;
+    }
+
+    .logo-prefeitura {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero-conteudo {
+        padding: 1.5rem;
+    }
+
+    .hero-conteudo h1 {
+        font-size: 1.8rem;
+    }
+
+    .btn-saiba-mais {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+}

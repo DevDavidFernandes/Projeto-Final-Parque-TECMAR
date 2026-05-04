@@ -3,7 +3,7 @@
 /* ------ */
 
 .rodape {
-    background-color: var(--cor-subprimaria); /* Azul marinho profundo */
+    background-color: var(--cor-subprimaria);
     color: white;
     padding: 60px 0 20px 0;
     margin-top: 50px;
@@ -12,15 +12,15 @@
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex; /* Flexbox para alinhar as 3 colunas */
+    display: flex; 
     justify-content: space-between;
     padding: 0 20px;
-    flex-wrap: wrap; /* Para telas menores */
+    flex-wrap: wrap; 
     gap: 30px;
 }
 
 .footer-col {
-    flex: 1; /* Faz as colunas terem tamanhos iguais */
+    flex: 1; 
     min-width: 250px;
 }
 
@@ -30,13 +30,13 @@
 }
 
 .footer-col h3 {
-    color: var(--cor-secundaria); /* Título em Verde Limão */
+    color: var(--cor-secundaria);
     margin-bottom: 20px;
     font-size: 1.2rem;
     position: relative;
 }
 
-/* Detalhe visual: linhazinha embaixo do título da coluna */
+
 .footer-col h3::after {
     content: '';
     display: block;
@@ -62,7 +62,7 @@
 
 .footer-col ul li a:hover {
     color: var(--cor-secundaria);
-    padding-left: 5px; /* Efeito de deslocamento */
+    padding-left: 5px;
 }
 
 .redes-sociais {
